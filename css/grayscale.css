@@ -144,7 +144,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../images/bg.jpg) no-repeat bottom center scroll;
+    background: url(../images/the-master-2.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -163,6 +163,16 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+}
+
+p.intro-text {
+  font-family: Arial;
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 400px;
+  line-height: 1.7em;
+  font-size: 20px !important;
+  padding: 200px 0 200px 100px;
 }
 
 @media(min-width:767px) {
