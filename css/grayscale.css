@@ -112,8 +112,8 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
     outline: 0;
-    background-color:#000000;
-    color:#cf0202;
+    /*background-color:#000000;
+    color:#cf0202;*/
 }
 
 @media(min-width:767px) {
@@ -382,4 +382,8 @@ body {
   padding-top: 300px;
   line-height: 2em !important;
   font-family: Roboto;
+}
+
+.nav > li > a:hover {
+  background: none !important;
 }
